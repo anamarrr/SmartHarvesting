@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "765210831943",
+    "firebase_url": "https://smartharvesting-38778.firebaseio.com",
+    "project_id": "smartharvesting-38778",
+    "storage_bucket": "smartharvesting-38778.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765210831943:android:4b08422b7e348f80",
+        "android_client_info": {
+          "package_name": "com.example.anama.smartharvestingproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765210831943-2v6udjeu95j3n42aah867mlbc5cv58e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLljBPg8o9ytCsIX9KuEaVFw_krC_29y4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
