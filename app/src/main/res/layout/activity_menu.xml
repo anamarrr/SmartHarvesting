@@ -1,16 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <Button
-        android:id="@+id/buttonLogOut"
+        android:id="@+id/addAngajat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Log out"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="80dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginRight="117dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="119dp"
+        android:text="Adauga Angajat"
+        app:layout_constraintBottom_toTopOf="@+id/listAngajati"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="463dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginLeft="295dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginStart="295dp"
+        android:text="Log Out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/listAngajati"
+        android:layout_width="153dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="29dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginRight="115dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="16dp"
+        android:text="Vizualizare Angajati"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addAngajat" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="183dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="21dp"
+        android:text="Activitate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listAngajati" />
 </android.support.constraint.ConstraintLayout>

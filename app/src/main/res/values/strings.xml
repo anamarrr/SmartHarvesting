@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SmartHarvestingProject</string>
+
+    <array name="sex">
+        <item>Feminim</item>
+        <item>Masculin</item>
+    </array>
+
 </resources>
